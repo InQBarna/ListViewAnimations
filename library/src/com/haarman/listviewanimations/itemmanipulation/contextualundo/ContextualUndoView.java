@@ -76,7 +76,7 @@ public class ContextualUndoView extends FrameLayout {
 
 	public void displayUndo() {
 		updateCountDownTimer("");
-		mContentView.setVisibility(View.GONE);
+		mContentView.setVisibility(View.INVISIBLE);
 		mUndoView.setVisibility(View.VISIBLE);
 	}
 
